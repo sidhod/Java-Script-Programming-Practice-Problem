@@ -8,5 +8,10 @@ let widthOfPlot = 40;
 let areaInFeet = lengthOfPlot * widthOfPlot;
 let areaInMeter = areaInFeet * 0.3048;
 console.log("Area Of Reactangular Plot In Meter=" + areaInMeter);
+let numberOfPlots = 25;
+
+let areaOfPlots = areaInFeet * numberOfPlots;
+let areaInAcres = areaOfPlots / 4047;
+console.log("Area Of Reactangular 25 Plot In acres=" + areaInAcres);
 
 
