@@ -1,5 +1,5 @@
-var date = prompt("Enter date");
-var month = prompt("Enter Month");
+let date = prompt("Enter date");
+let month = prompt("Enter Month");
 if ((31 > date) && (date > 1)) {
     if ((6 > month) && (month > 3)) {
         console.log("True");

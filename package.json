@@ -1,0 +1,22 @@
+{
+  "name": "javascript-programing",
+  "version": "1.0.0",
+  "description": "practic problem",
+  "main": "UseRandomFunction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidhod/Java-Script-Programming-Practice-Problem.git"
+  },
+  "author": "Sidhodhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidhod/Java-Script-Programming-Practice-Problem/issues"
+  },
+  "homepage": "https://github.com/sidhod/Java-Script-Programming-Practice-Problem#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
