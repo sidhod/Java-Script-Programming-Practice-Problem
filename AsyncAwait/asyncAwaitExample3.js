@@ -1,5 +1,5 @@
 // Example of Async Await
-//add fuction
+//check Login fuction
 function checkLogin(userName, password) {
     if (userName == "Sid" && password == "pass@123") {
         console.log("Welcome Sid");
