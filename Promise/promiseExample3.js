@@ -9,7 +9,7 @@ let demo = () => {
     return new Promise((resolve, reject) => {
         const prompt = require('prompt-sync')();
         let firstName = prompt("Enter Your Fist Name: ");
-        if (firstName == null) {
+        if (firstName == "") {
             reject(error());
         }
         else {
@@ -20,5 +20,5 @@ let demo = () => {
     });
 }
 demo()
-    .then((value) => console.log("Hi guys, My name is " + value))
+    .then((value) => console.log("Hi guys, My name is" + value))
     .catch((error) => console.log("Invalid", error));
