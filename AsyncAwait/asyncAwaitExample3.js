@@ -1,9 +1,12 @@
 // Example of Async Await
-//check Login fuction
+//add fuction
 function checkLogin(userName, password) {
     if (userName == "Sid" && password == "pass@123") {
         console.log("Welcome Sid");
         console.log("Login Successful");
+    }
+    else {
+        console.log("Invalid Login!!")
     }
 
 }
@@ -23,6 +26,7 @@ async function asyncCall() {
     let password = prompt("Enter Your Password: ");
     console.log("Wait....");
     await login(userName, password);
+    console.log("End");
 
 }
 //Call Function
