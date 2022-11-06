@@ -1,3 +1,4 @@
+// Example of Promise
 const demo = () => {
     return new Promise((resolve, reject) => {
         let flag = true;
@@ -10,4 +11,4 @@ const demo = () => {
 }
 demo()
     .then((value) => console.log("after resolve-->", value))
-    .catch((error) => console.log("after reject-->", value));
+    .catch((error) => console.log("after reject-->", error));
