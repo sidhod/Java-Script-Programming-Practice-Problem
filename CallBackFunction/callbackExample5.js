@@ -1,4 +1,4 @@
-// Callback Function Example
+// Callback Function Example No 5
 function printMobileNumber(mobileNumber, otp, checkOtp) {
     console.log("Mobile Number: " + mobileNumber);
     // callback function

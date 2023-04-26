@@ -1,4 +1,4 @@
-// Example of Async Await
+// Example of Async Await No 4
 //otp validation
 function genrateOtp() {
     let otpgenrate = Math.floor(Math.random() * 7000) + 1000;

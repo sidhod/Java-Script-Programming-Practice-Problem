@@ -1,4 +1,4 @@
-// Example of Async Await
+// Example of Promise
 //add fuction
 function add(a, b) {
     return a + b;

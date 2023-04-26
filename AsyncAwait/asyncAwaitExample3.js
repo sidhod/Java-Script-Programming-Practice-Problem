@@ -1,4 +1,4 @@
-// Example of Async Await
+// Example of Async Await No 3
 //add fuction
 function checkLogin(userName, password) {
     if (userName == "Sid" && password == "pass@123") {

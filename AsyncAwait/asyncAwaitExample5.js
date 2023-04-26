@@ -1,4 +1,4 @@
-// Example of Async Await
+// Example of Async Await No 5
 const employeeData = [];
 function insert(name, message, age) {
 
@@ -27,6 +27,7 @@ async function asyncCall() {
     await insertInArray(name, mobileNumber, age);
     console.log("--Data Inserted--");
     console.log(employeeData);
+
 }
 //Call Function
 asyncCall();

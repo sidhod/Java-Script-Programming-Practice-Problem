@@ -1,4 +1,4 @@
-// Example of Promise
+// Example of Promise No 2
 function add(a, b) {
     return a + b;
 }

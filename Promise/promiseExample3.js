@@ -1,4 +1,4 @@
-// Example of Promise
+// Example of Promise No 3
 function firstname(firstName) {
     return firstName
 }

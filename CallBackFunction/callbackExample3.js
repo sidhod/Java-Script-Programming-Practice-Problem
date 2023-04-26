@@ -1,4 +1,4 @@
-// Callback Function Example
+// Callback Function Example No 3
 function checkUserName(userName, password, checkPassword) {
     if (userName == "Sidhodhan") {
         console.log("Correct User name");

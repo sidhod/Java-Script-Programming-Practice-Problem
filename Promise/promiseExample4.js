@@ -1,4 +1,4 @@
-// Example of Promise
+// Example of Promise No 4
 function display(firstName, lastName) {
     console.log("My Name is " + firstName + " " + lastName)
 

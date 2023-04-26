@@ -1,4 +1,6 @@
-// Example of Promise
+import { sayHi } from "../closure/sayHi";
+
+// Example of Promise No 1
 const demo = () => {
     return new Promise((resolve, reject) => {
         let flag = true;
@@ -12,3 +14,4 @@ const demo = () => {
 demo()
     .then((value) => console.log("after resolve-->", value))
     .catch((error) => console.log("after reject-->", error));
+

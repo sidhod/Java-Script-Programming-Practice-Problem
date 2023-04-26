@@ -1,13 +1,13 @@
 // Callback Function Example
-function firstname(firstname, lastname, myFunction) {
-    console.log("First Name:", firstname);
+function firstname(firstName, lastName, myFunction) {
+    console.log("First Name:", firstName);
     // callback function
-    myFunction(lastname);
+    lastname(lastName);
 }
 
 // callback function
-function lastname(lastname) {
-    console.log("Last Name: ", lastname);
+function lastname(lastName) {
+    console.log("Last Name: ", lastName);
 }
 
 // calling the function after 2 seconds

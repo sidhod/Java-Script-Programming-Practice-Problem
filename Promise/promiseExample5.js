@@ -1,4 +1,5 @@
-// Example of Promise
+
+// Example of Promise No 5
 function display(username) {
     return "Welcome " + username;
 }
